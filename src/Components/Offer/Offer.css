@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+.offer{
+    width: 90%;
+    margin:  30px auto;
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    height: 75vh;
+    position: relative;
+    transition: opacity 1s ease-in-out;
+    border-radius: 20px;
+}
+
+.offer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: opacity 1s ease-in-out;
+}
+.offer-left p{
+    font-size: 40px;
+    font-weight: 400;
+}
+.offer-check{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20x;
+    color: black;
+    gap: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+.offer-check p{
+    font-size: 25px;
+    font-weight: 700;
+}
+.offer-left h2{
+    font-size: 50px;
+}
+.offer-mid-container{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.offer-mid-container p{
+    font-size: 40px;
+    font-weight: 700;
+}
+.offer-mid-container img{
+    height:80px;
+    border-radius: 100%;
+    width: 80px;
+}
+.offer-check img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.offer-right img{
+    height: 400px;
+    border-radius: 20px;
+}
+.forward{
+    position: absolute;
+    right: 0;
+    top:250px;
+    right: -80px;
+    cursor: pointer;
+
+}
+.backward{
+    height: 50px;
+    position: absolute;
+    left: -80px;
+    top: 250px;
+    cursor: pointer;
+}

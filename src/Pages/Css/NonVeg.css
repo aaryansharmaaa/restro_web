@@ -1,0 +1,82 @@
+.nonveg-banner{
+    width: 90%;
+    margin: auto;
+}
+.nonveg-banner img{
+    margin-top: 20px;   
+    width: 100%;
+    height: 400px;
+    animation: bannerwidth 2s ease-in-out 1;
+}
+
+@keyframes bannerwidth {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+    
+}
+.nonveg-item-container{
+    width: 100%;
+}
+.nonveg-item-childcontainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nonveg-heading{
+    display: flex;
+    gap: 5px;
+}
+.nonveg-heading span{
+    font-weight: 700;
+}
+.nonveg-showmore{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: gray;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+.nonveg-showmore img{
+    width: 20px;
+    border-radius: 100%;
+}
+.nonvegitem-container{
+    margin: 20px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    color: white;
+}
+.nonveg-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-explore{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

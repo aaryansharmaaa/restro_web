@@ -1,0 +1,17 @@
+.kids-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kids-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr  ;
+    gap: 20px;
+    color: white;
+}
+.kids-section hr{
+    height: 3px;
+    width: 40%;
+    background-color: white;
+    margin: 10px auto;
+}

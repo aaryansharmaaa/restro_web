@@ -1,0 +1,23 @@
+.famous-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 40px;
+    color: white;
+}
+.famous-container h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.famous-container hr{
+    height: 3px;
+    background-color: white;
+    width: 40%;
+    margin-top:10px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,37 @@
+.hero{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.hero img{
+    width: 100%;
+    height: 100vh;
+}
+.content-container{
+    position: absolute;
+    top:30% ;
+    left:23%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.hero button{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    width: 300px;
+    height: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(13, 18, 19);
+    color: white;
+
+}
+.content-container h3{
+    font-size: 30px;
+    color: bisque;
+}

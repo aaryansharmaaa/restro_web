@@ -1,0 +1,20 @@
+.relateditem h1{
+    text-align: center;
+}
+.relateditem hr{
+    width: 25%;
+    height:3px;
+    background-color: white;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+}
+.relatedcontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

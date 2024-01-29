@@ -1,0 +1,91 @@
+.tablebooking{
+    height: 150vh;
+    background-color: rgb(249, 168, 110);
+    width: 100%;
+}
+.tablebooking-banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tablebooking-banner img{
+    width: 80%;
+    height: 250px;
+    animation: bannerfold 2s ease-in-out 1 ;
+}
+@keyframes bannerfold{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.tablebooking-parent{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.tablebooking-left{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+}
+
+.tablebooking-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tablebooking-ul li{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}
+.tablebooking-left-booked{
+    display: flex;
+    flex-direction: column;
+}
+.information-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 40px;    
+    height: 450px;
+    width:350px;
+}
+.information-container input{
+    width: 350px;
+    height: 40px;
+    color: black;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.information-container button{
+    width: 500px;
+}
+.tablebooking-button{
+    margin-top: 10px;
+    width: 430px;
+    height: 50px;
+}
+.tablebooking-button:active{
+  background-color: antiquewhite;
+}
+.tablebooking-ul li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 20px;
+}

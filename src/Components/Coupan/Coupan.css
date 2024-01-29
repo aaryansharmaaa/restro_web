@@ -1,0 +1,50 @@
+.coupan{
+    width: 80%;
+    height: 50vh;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 20px;
+    background:linear-gradient(180deg,rgb(209, 153, 162),rgb(233, 233, 233) 60%);
+}
+.coupan h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.coupan h2{
+   font-size: 30px;
+   font-weight: 700;
+   color: gray;
+}
+.coupan-container{
+    height: 65px;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white ;
+    border-radius: 20px;
+}
+.coupan-container input{
+    padding-left: 20px;
+    height: 60px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.coupan-container button{
+    height: 62px;
+    width: 160px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}

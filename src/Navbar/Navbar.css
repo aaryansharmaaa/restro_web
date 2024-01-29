@@ -1,0 +1,100 @@
+.navbar{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar ul{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 26px;
+    font-weight: 500;
+    list-style-type: none;
+}
+.navbara-logo-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+.navbara-logo-container img{
+    height: 100px;
+    border-radius: 100%;
+}
+.navbara-logo-container p{
+    font-size: 29px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.navbar ul li hr{
+    height: 3px;
+    outline: none;
+    border: none;
+    background-color: rgb(21, 190, 29);
+    margin-top: 10px;
+}
+.navbar-input-text{
+    width: 200px;
+    padding-left: 20px;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.searchicon img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    border-radius: 30%;
+}
+.navbar-recipe-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.navbar-recipe-search-span span{
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+}
+.navbar-login-signup-container{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    background-color:transparent;
+    gap: 10px;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px ;
+    width: 75px;
+    background-color: rgb(255, 7, 7);
+    color: black;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+
+}
+.signup-container{
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;    
+}

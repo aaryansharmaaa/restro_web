@@ -1,0 +1,57 @@
+.desert{
+    width: 100%;
+}
+.desert-parent{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.desert h1{
+    text-align: center;
+    margin: 5px;
+}
+.desert hr{
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    margin: 10px auto;
+    
+}
+.desert-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 40%;
+    left: 28%;
+    position: absolute;
+    height: 150px;
+    width: 600px;
+    background-color: rgba(229, 225, 225, 0.258);
+    padding: 20px;
+}
+.desert-content p{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin: 10px;
+}
+.desert-content span{
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(8, 20, 35);
+}
+.desert-content button{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.desert-parent video{
+    width: 100%;
+}
